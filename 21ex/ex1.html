@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #Application {
+        background-color: cornflowerblue;
+        color: crimson;
+        text-align: center;
+        padding: 40px;
+    }
+
+    </style>
+              
+    
+</head>
+
+<body style="background-color: rgb(255, 243, 80);">
+    <h1 id="Application">Application Form</h1>
+    <form action="" method="POST">
+
+        <label for="">Name of the Applicant</label>
+        <input type="text" name="fname" required>
+
+        <label for="">Age </label>
+        <input type="number" name="Age" min=18 max=35>
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="transgender" value="Transgender">Transgender
+        <br>
+        <br>
+        <div>
+            <label for="">Date of Birth</label>
+            <input type="date" name="DOB" required>
+        </div>
+        <br>
+        <div>
+            <label for="">Select the Post</label>
+            <select name="Name of the post">
+                <option value="JRF">JRF</option>
+                <option value="JRF and Asst Professor">JRF and Asst Professor</option>
+
+            </select>
+
+        </div>
+        <br>
+
+        <div>
+            <label for="">Qualification</label>
+            <select name="Qualification" id="">
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="ME">ME</option>
+                <option value="CSE">CSE</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Marks Obtained</label><br><br>
+            <input type="checkbox" name="Qualification" value="Second class">Second class
+            <input type="checkbox" name="Qualification" value="First class">First class
+            <input type="checkbox" name="Qualification" value="Distinction">Distinction
+
+        </div>
+        <br>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="Email"> <br><br>
+            <label for="">Password</label>
+            <input type="password" maxlength="10">
+        </div>
+        <br>
+        
+            <label for="">Photograph</label>
+            <input type="file" name="File">
+            <label for="">Sign</label>
+            <input type="file" name="File">
+        
+        <br><br>
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

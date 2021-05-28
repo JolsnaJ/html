@@ -1,0 +1,24 @@
+table{
+    border-collapse:collapse;
+}
+
+
+
+.tbl{
+    background-color: aqua;
+    text-align: center;
+
+}
+.tblhead{
+    background-color: greenyellow;
+}
+.tblr:nth-child(odd){
+    background-color: grey;
+}
+.tblhead:hover{
+    background-color: hotpink;
+}
+.tblr:nth-child(odd):hover{
+    background-color: olive;
+    text-align: right;
+}
